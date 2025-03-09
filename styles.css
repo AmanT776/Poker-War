@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.board{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/board.jpg");
+    color: white;
+}
+button{
+    border: none;
+    padding: 1em;
+    background: yellow;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background: darkorange;
+}
+.top-right-div{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.winner-board{
+    margin-bottom: 20px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.card{
+    width: calc(326px * 5/7);
+    height: 322px;
+    border: 3px solid black;
+    border-radius: 12px;
+    
+}
+.draw-btn{
+    width: 100%;
+    margin-top: auto;
+}
+button:disabled{
+    cursor: not-allowed;
+}
