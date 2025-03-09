@@ -7,5 +7,5 @@ Poker War is a two-player game where you and the computer each draw a card from 
 - Interactive UI: Clean and responsive interface for a smooth gaming experience.
 - Score Tracking: Keeps track of your score and the computer's score throughout the game.
 - Play Again: Restart the game with a fresh deck at any time.
-netlify link: https://luminous-sopapillas-83ca20.netlify.app/
+- netlify link: https://luminous-sopapillas-83ca20.netlify.app/
 
